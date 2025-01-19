@@ -6,7 +6,7 @@ from watchdog.events import FileSystemEventHandler
 import subprocess
 
 # Configuration constants
-SOURCE_DIR = "C:\Users\pc\Documents\Embedded\Photos"
+SOURCE_DIR = "C:/Users/pc/Documents/Embedded/Photos"
 PROCESSED_DIR = os.path.join(SOURCE_DIR, "uploaded")  # Storage for processed images
 API_ENDPOINT = "https://projects.benax.rw/f/o/r/e/a/c/h/p/r/o/j/e/c/t/s/4e8d42b66f70fa9d39741a93ed0356c/iot_testing_202501/upload.php"
 
